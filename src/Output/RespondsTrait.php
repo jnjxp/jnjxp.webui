@@ -18,7 +18,7 @@
  */
 
 
-namespace Jnjxp\WebUi;
+namespace Jnjxp\WebUi\Output;
 
 use Aura\Payload_Interface\PayloadInterface as Payload;
 use Jnjxp\HttpStatus\StatusCode;
@@ -34,7 +34,7 @@ use Psr\Http\Message\ServerRequestInterface as Request;
  * @license  https://jnj.mit-license.org/ MIT License
  * @link     https://github.com/jnjxp
  */
-class RespondsTrait
+trait RespondsTrait
 {
 
     /**
