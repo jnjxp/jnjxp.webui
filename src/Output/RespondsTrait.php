@@ -21,7 +21,7 @@
 namespace Jnjxp\WebUi\Output;
 
 use Aura\Payload_Interface\PayloadInterface as Payload;
-use Jnjxp\HttpStatus\StatusCode;
+use Jnjxp\HttpStatus\StatusCode as HttpStatus;
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
 
