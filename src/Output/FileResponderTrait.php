@@ -1,7 +1,7 @@
 <?php
 // @codingStandardsIgnoreFile
 
-namespace Jnjxp\WebUi;
+namespace Jnjxp\WebUi\Output;
 
 use Jnjxp\HttpStatus\StatusCode;
 use Psr\Http\Message\ResponseInterface as Response;
