@@ -30,7 +30,7 @@ trait FileResponderTrait
     ) : Response {
 
         if (! $file->isFile()) {
-            return $response->withStatus(StatusCode::NOT_FOUND);
+            return $response->withStatus(StatusCode::HTTP_NOT_FOUND);
         }
 
         $response = $this->responseWithFile($response, $file);
