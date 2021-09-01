@@ -3,7 +3,7 @@
 
 namespace Jnjxp\WebUi\Middleware;
 
-use Zend\Diactoros\Response as Emitter;
+use Laminas\Diactoros\Response as Emitter;
 
 class ResponseSender
 {
