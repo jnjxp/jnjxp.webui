@@ -7,7 +7,7 @@ use Jnjxp\HttpStatus\StatusCode;
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
 use SplFileInfo;
-use Zend\Diactoros\Stream;
+use Laminas\Diactoros\Stream;
 
 trait FileResponderTrait
 {
